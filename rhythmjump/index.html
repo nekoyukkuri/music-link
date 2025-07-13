@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>リズムジャンプ！ feat. ねこねこ</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .jacket {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  .artist {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  #links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .link-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 14px;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  .link-item:hover {
+    background-color: #e0e0e0;
+  }
+  .icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 14px;
+  }
+</style>
+</head>
+<body>
+  <main class="container">
+    <img src="jacket.jpg" alt="ジャケット画像" class="jacket" />
+    <h1 class="title">リズムジャンプ！ feat. ねこねこ</h1>
+    <p class="artist">ねこねこ</p>
+    <div id="links"></div>
+  </main>
+
+  <script>
+    fetch('links.json')
+      .then(response => response.json())
+      .then(links => {
+        const container = document.getElementById('links');
+        links.forEach(link => {
+          const a = document.createElement('a');
+          a.href = link.url;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          a.className = 'link-item';
+
+          const img = document.createElement('img');
+          img.src = link.icon;
+          img.alt = link.name;
+          img.className = 'icon';
+
+          const span = document.createElement('span');
+          span.textContent = link.name;
+
+          a.appendChild(img);
+          a.appendChild(span);
+
+          container.appendChild(a);
+        });
+      })
+      .catch(err => {
+        console.error('リンクの読み込みに失敗しました:', err);
+      });
+  </script>
+</body>
+</html>
