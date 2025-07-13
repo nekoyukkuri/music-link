@@ -85,6 +85,11 @@
           img.alt = link.name;
           img.className = 'icon';
 
+          // SVGアイコンが読み込めなかったら削除
+          img.onerror = () => {
+            img.remove();
+          };
+
           const span = document.createElement('span');
           span.textContent = link.name;
 
