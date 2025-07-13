@@ -1,0 +1,192 @@
+[
+  {
+    "name": "eMUSIC",
+    "url": "https://www.emusic.com/album/xxxxxxxx",
+    "icon": "icons/emusic.svg"
+  },
+  {
+    "name": "Amazon MP3",
+    "url": "https://www.amazon.co.jp/dp/xxxxxxxx",
+    "icon": "icons/amazon.svg"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://open.spotify.com/track/xxxxxxxx",
+    "icon": "icons/spotify.svg"
+  },
+  {
+    "name": "iTunes",
+    "url": "https://music.apple.com/jp/album/xxxxxxxx",
+    "icon": "icons/applemusic.svg"
+  },
+  {
+    "name": "Deezer",
+    "url": "https://www.deezer.com/track/xxxxxxxx",
+    "icon": "icons/deezer.svg"
+  },
+  {
+    "name": "Napster",
+    "url": "https://us.napster.com/artist/xxxxxxxx",
+    "icon": "icons/napster.svg"
+  },
+  {
+    "name": "routenote-direct",
+    "url": "https://routenote.com/xxxxxxxx",
+    "icon": "icons/routenote-direct.svg"
+  },
+  {
+    "name": "YouTube Music",
+    "url": "https://music.youtube.com/watch?v=xxxxxxxx",
+    "icon": "icons/youtubemusic.svg"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/watch?v=xxxxxxxx",
+    "icon": "icons/youtube.svg"
+  },
+  {
+    "name": "Tidal",
+    "url": "https://tidal.com/browse/track/xxxxxxxx",
+    "icon": "icons/tidal.svg"
+  },
+  {
+    "name": "Nuuday",
+    "url": "https://nuuday.com/xxxxxxxx",
+    "icon": "icons/nuuday.svg"
+  },
+  {
+    "name": "SoundCloud",
+    "url": "https://soundcloud.com/xxxxxxxx",
+    "icon": "icons/soundcloud.svg"
+  },
+  {
+    "name": "Anghami",
+    "url": "https://www.anghami.com/song/xxxxxxxx",
+    "icon": "icons/anghami.svg"
+  },
+  {
+    "name": "Claro-musica",
+    "url": "https://claromusica.com/track/xxxxxxxx",
+    "icon": "icons/claro-musica.svg"
+  },
+  {
+    "name": "Kanjian",
+    "url": "https://kanjian.com/track/xxxxxxxx",
+    "icon": "icons/kanjian.svg"
+  },
+  {
+    "name": "Pandora",
+    "url": "https://www.pandora.com/artist/xxxxxxxx",
+    "icon": "icons/pandora.svg"
+  },
+  {
+    "name": "Melon",
+    "url": "https://www.melon.com/track/xxxxxxxx",
+    "icon": "icons/melon.svg"
+  },
+  {
+    "name": "iHeartRadio",
+    "url": "https://www.iheart.com/artist/xxxxxxxx",
+    "icon": "icons/iheartradio.svg"
+  },
+  {
+    "name": "7Digital",
+    "url": "https://www.7digital.com/artist/xxxxxxxx",
+    "icon": "icons/7digital.svg"
+  },
+  {
+    "name": "Saavn",
+    "url": "https://www.jiosaavn.com/album/xxxxxxxx",
+    "icon": "icons/saavn.svg"
+  },
+  {
+    "name": "Bugs!",
+    "url": "https://music.bugs.co.kr/track/xxxxxxxx",
+    "icon": "icons/bugs.svg"
+  },
+  {
+    "name": "AWA",
+    "url": "https://awa.fm/track/xxxxxxxx",
+    "icon": "icons/awa.svg"
+  },
+  {
+    "name": "VIBE",
+    "url": "https://vibe.naver.com/track/xxxxxxxx",
+    "icon": "icons/vibe.svg"
+  },
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/xxxxxxxx",
+    "icon": "icons/facebook.svg"
+  },
+  {
+    "name": "Qobuz",
+    "url": "https://www.qobuz.com/track/xxxxxxxx",
+    "icon": "icons/qobuz.svg"
+  },
+  {
+    "name": "Netease",
+    "url": "https://music.163.com/#/song?id=xxxxxxxx",
+    "icon": "icons/netease.svg"
+  },
+  {
+    "name": "Tencent",
+    "url": "https://y.qq.com/n/ryqq/songDetail/xxxxxxxx",
+    "icon": "icons/tencent.svg"
+  },
+  {
+    "name": "TikTok",
+    "url": "https://www.tiktok.com/music/original-sound-xxxxxxxx",
+    "icon": "icons/tiktok.svg"
+  },
+  {
+    "name": "Kuack Media",
+    "url": "https://kuack.media/track/xxxxxxxx",
+    "icon": "icons/kuack-media.svg"
+  },
+  {
+    "name": "FLO",
+    "url": "https://www.music-flo.com/track/xxxxxxxx",
+    "icon": "icons/flo.svg"
+  },
+  {
+    "name": "KKBOX",
+    "url": "https://www.kkbox.com/track/xxxxxxxx",
+    "icon": "icons/kkbox.svg"
+  },
+  {
+    "name": "Zing MP3",
+    "url": "https://zingmp3.vn/bai-hat/xxxxxxxx.html",
+    "icon": "icons/zing-mp3.svg"
+  },
+  {
+    "name": "Joox",
+    "url": "https://www.joox.com/track/xxxxxxxx",
+    "icon": "icons/joox.svg"
+  },
+  {
+    "name": "Genie Music",
+    "url": "https://www.genie.co.kr/detail/songInfo?xgnm=xxxxxxxx",
+    "icon": "icons/genie-music.svg"
+  },
+  {
+    "name": "Boomplay",
+    "url": "https://www.boomplay.com/songs/xxxxxxxx",
+    "icon": "icons/boomplay.svg"
+  },
+  {
+    "name": "Line Music",
+    "url": "https://music.line.me/album/xxxxxxxx",
+    "icon": "icons/line-music.svg"
+  },
+  {
+    "name": "CapCut",
+    "url": "https://www.capcut.com/music/xxxxxxxx",
+    "icon": "icons/capcut.svg"
+  },
+  {
+    "name": "AllSaints",
+    "url": "https://allsaints.com/music/xxxxxxxx",
+    "icon": "icons/allsaints.svg"
+  }
+]
