@@ -27,6 +27,9 @@
     margin: 0 0 30px;
     max-width: 400px;
     line-height: 1.4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   a.button {
     display: inline-block;
@@ -44,21 +47,23 @@
     background: #5a3ea0;
     color: white;
   }
-  /* アニメーションでゆっくり揺れる音符アイコン */
   .icon {
-    font-size: 6rem;
-    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: block;
     animation: float 3s ease-in-out infinite;
+    fill: white;
   }
   @keyframes float {
-    0%, 100% { transform: translateY(0) }
-    50% { transform: translateY(-15px) }
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
   }
 </style>
 </head>
 <body>
   <div>
-    <div class="icon" aria-hidden="true">🎵</div>
+    <img src="/note-icon.svg" alt="" class="icon" aria-hidden="true" />
     <h1>おっと…楽曲が見つかりません！</h1>
     <p>お探しの曲は削除されたか、URLが間違っている可能性があります。<br>別の曲を探してみましょう。</p>
     <a href="/" class="button">ホームに戻る</a>
