@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>楽曲が見つかりませんでした | 404</title>
+<style>
+  body {
+    margin: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 4rem;
+    margin: 0 0 20px;
+  }
+  p {
+    font-size: 1.3rem;
+    margin: 0 0 30px;
+    max-width: 400px;
+    line-height: 1.4;
+  }
+  a.button {
+    display: inline-block;
+    background: white;
+    color: #764ba2;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 0 6px 15px rgba(255 255 255 / 0.3);
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  a.button:hover {
+    background: #5a3ea0;
+    color: white;
+  }
+  /* アニメーションでゆっくり揺れる音符アイコン */
+  .icon {
+    font-size: 6rem;
+    margin-bottom: 20px;
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0) }
+    50% { transform: translateY(-15px) }
+  }
+</style>
+</head>
+<body>
+  <div>
+    <div class="icon" aria-hidden="true">🎵</div>
+    <h1>おっと…楽曲が見つかりません！</h1>
+    <p>お探しの曲は削除されたか、URLが間違っている可能性があります。<br>別の曲を探してみましょう。</p>
+    <a href="/" class="button">ホームに戻る</a>
+  </div>
+</body>
+</html>
